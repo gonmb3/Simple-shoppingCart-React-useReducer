@@ -1,0 +1,22 @@
+*{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+
+
+a{
+  text-decoration: none!important;
+  color: inherit!important;
+}
+
+.box{
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 1rem #00000025 inset;
+}
+
+.grid-resp{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
